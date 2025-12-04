@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Hub - Tuyển tập trò chơi</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #0f172a, #1e1b4b);
+            color: #f8fafc;
+            font-family: 'Nunito', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(15px);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            text-align: center;
+        }
+        h1 {
+            color: #3b82f6;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 30px;
+            font-size: 2.5rem;
+        }
+        .game-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .game-button {
+            padding: 20px 30px;
+            background: #10b981;
+            color: white;
+            text-decoration: none;
+            border-radius: 12px;
+            font-weight: bold;
+            font-size: 1.2rem;
+            transition: 0.2s;
+            box-shadow: 0 5px 0 #059669;
+        }
+        .game-button:hover {
+            background: #059669;
+        }
+        .game-button:active {
+            transform: translateY(5px);
+            box-shadow: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎮 CHỌN TRÒ CHƠI</h1>
+        
+        <div class="game-list">
+            
+            <a href="https://[tên-người-dùng].github.io/minesweeper-repo/index.html" class="game-button">
+                💣 DÒ MÌN (Minesweeper)
+            </a>
+
+            <a href="#" class="game-button" style="background:#f97316; box-shadow: 0 5px 0 #ea580c;">
+                🧩 GAME KHÁC (Sắp ra mắt)
+            </a>
+            
+        </div>
+    </div>
+</body>
+</html>
